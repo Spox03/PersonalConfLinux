@@ -2,7 +2,7 @@
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias cd='pushd'
+alias cd='pushd ${1:-~}'
 alias c-='popd'
 alias cl='dirs'
 alias ..='pushd ..'
