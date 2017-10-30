@@ -2,7 +2,8 @@
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias cd='pushd ${1:-~}'
+# raspbian have a patched pushd for ~
+alias cd='pushd ${1}'
 alias c-='popd'
 alias cl='dirs'
 alias ..='pushd ..'
